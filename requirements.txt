@@ -1,5 +1,9 @@
+geopandas==0.14.3
 humanfriendly==10.0
 ipinfo==4.4.3
+mapclassify==2.6.1
+matplotlib==3.8.3
 pandas==2.2.0
+shapely==2.0.3
 ua-parser==0.18.0
 user-agents==2.2.0

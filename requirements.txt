@@ -1,0 +1,5 @@
+humanfriendly==10.0
+ipinfo==4.4.3
+pandas==2.2.0
+ua-parser==0.18.0
+user-agents==2.2.0

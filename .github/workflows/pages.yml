@@ -30,7 +30,7 @@ jobs:
       run: |
         jupyter-book build notebook.ipynb
     - name: Upload Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-pages-artifact@v3
       with:
         name: github-pages
         path: _build/_page/notebook/html/

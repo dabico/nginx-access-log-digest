@@ -25,7 +25,7 @@ jobs:
         key: jupyter-book-cache-${{ hashFiles('notebook.ipynb', 'requirements.txt') }}
     - name: Build Jupyter Notebooks
       run: |
-        jupyter-book build .
+        jupyter-book build notebook.ipynb
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:

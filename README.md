@@ -27,9 +27,9 @@ line-by-line and extracts the following fields:
 - Referrer
 
 Apart from the fields above, the script also calculates the location of
-each IP address using the `ipinfo.io` API. All this data is loaded into
-dataclasses and then exported to a CSV file. The data model used can be
-represented with the following diagram:
+each IP address using the [ipinfo.io](https://ipinfo.io/) API. All this
+data is loaded into dataclasses and then exported to a CSV file. The data
+model used can be represented with the following diagram:
 
 ```mermaid
 erDiagram
@@ -67,9 +67,9 @@ erDiagram
 
 ## Jupyter Notebook
 
-The Jupyter notebook uses the data produced by the mining script to
+The Jupyter Notebook uses the data produced by the mining script to
 perform the actual analysis and visualization. It's written in the
-style of both a report and tutorial. For each section, it explains the
+style of both a report and a tutorial. For each section, it explains the
 individual steps taken to produce the analysis and visualization, while
 also providing commentary on the results. Although we provide the data
 to run the notebook yourself, we have also deployed it to a GitHub
